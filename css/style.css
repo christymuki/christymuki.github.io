@@ -47,6 +47,9 @@ section#home {
 section#home p{
 	padding: 5em 0;
 }
+section#contact p {
+	padding: 5em 0;
+}
 header h1 {
 	float: left;
 }
