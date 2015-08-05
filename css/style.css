@@ -78,4 +78,10 @@ footer a {
 	text-align: center;
 	position: center;
 }
-
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display:block;
+	height: 0;
+	clear: both;
+}
