@@ -46,12 +46,8 @@ header h1 {
 	float: left;
 	font-size: 0.7em;
 }
-header li, a, img{
+header a, img, p{
 	display: inline-block;
-}
-header li{
-	float: right;
-	padding: 0 1em;
 }
 footer p, a{
 	display: inline-block;
