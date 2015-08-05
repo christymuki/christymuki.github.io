@@ -8,7 +8,7 @@ body {
 	font-color: black;
 }
 header {
-	padding: 2em 0;
+	padding: 3em 0;
 	display: block;
 	font-color: white;
 	margin-left: 10%;
@@ -41,8 +41,11 @@ section {
 	padding: 2em 0;
 	display: block;
 }
-section.home {
+section#home {
 	background-color: #81B7C4;
+}
+section#home p{
+	padding: 5em 0;
 }
 header h1 {
 	float: left;
