@@ -5,34 +5,31 @@ body {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 100;
-	border-style: solid;
-	border-width: 10%;
-	border-color: black;
 	font-color: black;
 }
 header {
-	margin: 10% 10% 0 10%;
 	padding: 2em 0;
 	display: block;
-	width: 100%;
 	background-color: black;
 	font-color: white;
-	position: fixed;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 nav {
-	
+	float: right;
+	display: inline-block;
 }
 wrapper {
-	margin: 0 10% 0 10%;
 	padding: 3em 0;
 	display: block;
-	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 footer {
-	margin: 0 10% 0 10%;
 	padding: 1em 0;
 	display: block;
-	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 h1 {
 	outline-style: solid;
@@ -47,12 +44,11 @@ section.home {
 }
 header h1 {
 	float: left;
-	font-size: 0.7em;
 }
-header a, img, p{
+header a, img, h1{
 	display: inline-block;
 }
-footer p, a{
+footer h1, a{
 	display: inline-block;
 	text-decoration: none;
 }
@@ -64,7 +60,6 @@ footer a {
 }
 #worktype {
 	display: block;
-	width: 100%;
 }
 .column {
 	width: 32.33%;
