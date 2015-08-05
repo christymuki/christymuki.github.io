@@ -36,6 +36,10 @@ footer {
 h1 {
 	outline-style: solid;
 	outline-color: black;
+	font-family: 'Lobster', cursive;
+}
+p, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
 }
 section {
 	padding: 2em 0;
