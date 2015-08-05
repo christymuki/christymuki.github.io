@@ -55,7 +55,9 @@ section#contact p {
 	padding: 5em 0;
 }
 header h1 {
-	float: left;
+	text-align: center;
+	border-style: none;
+	font-size: 3em;
 }
 header a, img, h1{
 	display: inline-block;
@@ -88,4 +90,15 @@ footer a {
 	display:block;
 	height: 0;
 	clear: both;
+}
+@media only screen and (max-width: 800px) {
+	nav h1 {
+		display: none;
+	}
+}
+@media only screen and (max-width: 661px) {
+
+}
+@media only screen and (max-width: 480px) {
+
 }
