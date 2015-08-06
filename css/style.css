@@ -69,6 +69,10 @@ footer p {
 }
 footer a {
 	float: right;
+	padding: 0 1em;
+}
+footer a img {
+	height: 1.5em;
 }
 #worktype {
 	display: block;
