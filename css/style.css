@@ -50,6 +50,7 @@ section#home {
 section#home h1 {
 	font-size: 8em;
 	text-align: center;
+	width: 100%;
 }
 section#home p{
 	padding: 5em 0;
