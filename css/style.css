@@ -63,6 +63,7 @@ header h1 {
 }
 header a, img, h1, h2{
 	display: inline-block;
+	color: black;
 }
 footer h1, a{
 	display: inline-block;
