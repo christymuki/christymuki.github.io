@@ -34,8 +34,6 @@ footer {
 	margin-right: 10%;
 }
 h1 {
-	outline-style: solid;
-	outline-color: black;
 	font-family: 'Lobster', cursive;
 }
 p, h2, h3, h4, h5, h6 {
@@ -82,7 +80,9 @@ footer a {
 }
 .column img, p {
 	text-align: center;
-	position: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .clearfix:after {
 	content: ".";
