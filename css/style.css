@@ -45,6 +45,11 @@ section {
 }
 section#home {
 	background-color: #81B7C4;
+	padding: 4em 0;
+}
+section#home h1 {
+	font-size: 8em;
+	text-align: center;
 }
 section#home p{
 	padding: 5em 0;
@@ -54,10 +59,9 @@ section#contact p {
 }
 header h1 {
 	text-align: center;
-	border-style: none;
-	font-size: 3em;
+	font-size: 2em;
 }
-header a, img, h1{
+header a, img, h1, h2{
 	display: inline-block;
 }
 footer h1, a{
