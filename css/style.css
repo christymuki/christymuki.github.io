@@ -101,6 +101,9 @@ footer a img {
 	height: 0;
 	clear: both;
 }
+#slideshow {
+	display: none;
+}
 @media only screen and (max-width: 980px) {
 	nav h2 {
 		display: none;
