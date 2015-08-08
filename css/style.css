@@ -61,6 +61,7 @@ section#contact p {
 header h1 {
 	text-align: center;
 	font-size: 2em;
+	padding: 0 1em;
 }
 header h2 {
 	font-size: 1em;
@@ -118,13 +119,13 @@ footer a img {
 }
 @media only screen and (max-width: 800px) {
 	header{
-		margin: none;
+		margin: 0;
 	}
 	wrapper {
-		margin: none;
+		margin: 0;
 	}
 	footer {
-		margin: none;
+		margin: 0;
 	}
 }
 @media only screen and (max-width: 661px) {
