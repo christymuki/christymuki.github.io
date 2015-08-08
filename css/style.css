@@ -80,6 +80,7 @@ footer h1, a{
 }
 footer p {
 	float: left;
+	padding: 0 1em;
 }
 footer a {
 	float: right;
