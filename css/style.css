@@ -104,12 +104,12 @@ footer a img {
 	margin-right: auto;
 	display: block;
 }
-.column {
-	width: 32.33%;
+.screenshot {
+	width: 33.33%;
 	float: left;
-	padding: 1em;
+	padding: 1em 0;
 }
-.column img, p {
+.screenshot img, p {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -150,5 +150,11 @@ footer a img {
 	}
 }
 @media only screen and (max-width: 630px) {
-
+	wrapper {
+		padding: 0 0 3em 0;
+	}
+	.typecolumn {
+		width: 33.33%;
+		padding: 1em 0;
+	}
 }
