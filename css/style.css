@@ -149,12 +149,30 @@ footer a img {
 		font-size: 0.8em;
 	}
 }
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 650px) {
 	wrapper {
 		padding: 0 0 3em 0;
 	}
 	.typecolumn {
 		width: 33.33%;
 		padding: 1em 0;
+	}
+	section#home h1 {
+		font-size: 6em;
+	}
+}
+@media only screen and (max-width: 560px) {
+	section#home h1 {
+		font-size: 5em;
+	}
+}
+@media only screen and (max-width: 470px) {
+	section#home h1 {
+		font-size: 4em;
+	}
+}
+@media only screen and (max-width: 402px) {
+	header h1, nav {
+		display: block;
 	}
 }
