@@ -172,7 +172,11 @@ footer a img {
 	}
 }
 @media only screen and (max-width: 402px) {
+	header {
+		padding: 3em 0 0 0;
+	}
 	header h1, nav {
 		display: block;
+		float: none;
 	}
 }
