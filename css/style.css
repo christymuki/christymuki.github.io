@@ -76,7 +76,10 @@ header a, img, h2{
 	color: black;
 }
 #dolphlogo {
-	width: ;
+	display: inline-block;
+}
+#dolphlogo img {
+	width: 13em;
 }
 footer h1, a{
 	display: inline-block;
