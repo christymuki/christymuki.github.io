@@ -71,9 +71,12 @@ header h2 {
 header a {
 	padding: 0 1em;
 }
-header a, img, h1, h2{
+header a, img, h2{
 	display: inline-block;
 	color: black;
+}
+#dolphlogo {
+	width: ;
 }
 footer h1, a{
 	display: inline-block;
