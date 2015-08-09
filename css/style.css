@@ -147,6 +147,12 @@ footer a img {
 	footer {
 		margin: 0;
 	}
+	nav {
+		padding: 4em 0;
+	}
+	#dolphlogo img {
+		width: 11em;
+	}
 }
 @media only screen and (max-width: 738px) {
 	section#home h1 {
@@ -154,6 +160,12 @@ footer a img {
 	}
 	section#home p {
 		font-size: 0.8em;
+	}
+	nav {
+		padding: 3em 0;
+	}
+	#dolphlogo img {
+		width: 9em;
 	}
 }
 @media only screen and (max-width: 650px) {
@@ -176,6 +188,15 @@ footer a img {
 @media only screen and (max-width: 470px) {
 	section#home h1 {
 		font-size: 4em;
+	}
+	nav {
+		padding: 2.5em 0;
+	}
+	#dolphlogo img {
+		width: 8em;
+	}
+	header {
+		padding: 2em 0 0 0;
 	}
 }
 @media only screen and (max-width: 402px) {
