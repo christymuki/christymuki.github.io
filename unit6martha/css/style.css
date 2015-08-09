@@ -1,0 +1,94 @@
+* { margin:0; padding:0; box-sizing:border-box;}
+body {
+	background-color: white;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 100;
+
+}
+header {
+	background-color: rgba(0,0,0,.8);
+	border-radius: 12px;
+	font-size: 12px;
+	padding: 1em 1.5em;
+	margin: 2em 20%;
+	color: white;
+	position: fixed;
+}
+h1 {
+	display: inline-block;
+	width: 40%;
+	font-family: 'Leckerli One', cursive;
+}
+section {
+	padding: 5em 0;
+}
+nav {
+	float: right;
+	padding: 0 5em;
+	width: 60%;
+}
+nav a {
+	color: white;
+	display: block;
+	float: left;
+	font-family: ;
+	font-weight: 400;
+	text-decoration:none;
+	margin: 0 .5%;
+	padding: 0 0.5em;
+	text-decoration: none;
+	width: 15.66%;
+	text-align:center;
+	background-size: 
+}
+nav a img {
+	width: 40px;
+	border-radius: 50%;
+}
+span {
+	text-align: center;
+	left: 35%;
+	margin: auto;
+	margin-top: -100px;
+	position: absolute;
+	top: 80%;
+	width: 30%;
+}
+section#homepage {
+	background-image: url(../unit6images/brittanyhomepage.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 100vh;
+	padding-bottom: 0;
+}
+section#profiles,#map,#blog {
+	margin: 0 100px;
+}
+section#profiles {
+	margin-top: relative;
+}
+section#profiles h1, h2, h3{
+	border-style: solid;
+	text-align: center;
+	margin-bottom: 25px;
+}
+section.profilecolumn {
+	width: 32.33%;
+	display: inline-block;
+}
+#title {
+	float: left;
+	width: 2em;
+	padding: 1em 0;
+	text-align: center;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}

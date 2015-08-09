@@ -60,9 +60,9 @@ section#home p{
 section#contact p {
 	padding: 5em 0;
 }
-header h1 {
-	text-align: center;
-	font-size: 2em;
+img h1 {
+	width:;
+	float: left;
 }
 header h2 {
 	font-size: 1em;
@@ -175,7 +175,7 @@ footer a img {
 	header {
 		padding: 3em 0 0 0;
 	}
-	header h1, nav {
+	header img, nav {
 		display: block;
 		float: none;
 	}
