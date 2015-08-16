@@ -190,6 +190,9 @@ footer a img {
 	.typecolumn p {
 		font-size: 0.8em;
 	}
+	header {
+		padding: 0;
+	}
 }
 @media only screen and (max-width: 470px) {
 	section#home h1 {
@@ -200,9 +203,6 @@ footer a img {
 	}
 	#dolphlogo {
 		width: 7em;
-	}
-	header {
-		padding: 0;
 	}
 	nav img {
 		width: 1.5em;
