@@ -56,8 +56,8 @@ section {
 }
 section#home {
 	background-image: url(/images/kellycanoe.jpg);
-	background-size:137.94em;
-	padding: 4em 0;
+	background-size: 100%;
+	padding: 60em 0;
 }
 section#home h1 {
 	font-size: 8em;
