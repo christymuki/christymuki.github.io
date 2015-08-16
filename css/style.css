@@ -12,7 +12,6 @@ body {
 	src: url(Silent_Lips-Bold.ttf) format('truetypefont');
 }
 header {
-	padding: 2em 0;
 	display: block;
 	font-color: white;
 	margin-left: 5%;
@@ -55,10 +54,10 @@ section {
 	display: block;
 }
 section#home {
-	background-image: url(/images/kellycanoe.jpg);
+	background-image: url(/images/kellycanoecropped.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	padding: 60em 0;
+	padding: 15em 0;
 }
 section#home h1 {
 	font-size: 8em;
@@ -196,9 +195,6 @@ footer a img {
 	}
 	.typecolumn p {
 		font-size: 0.8em;
-	}
-	header {
-		padding: 0;
 	}
 }
 @media only screen and (max-width: 470px) {
