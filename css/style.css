@@ -199,12 +199,6 @@ footer a img {
 	#dolphlogo {
 		width: 8em;
 	}
-	header #dolphlogo, nav {
-		display: block;
-		margin: auto;
-		float: none;
-		text-align: center;
-	}
 	header {
 		padding: 2em 0 0 0;
 	}
