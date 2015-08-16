@@ -197,14 +197,20 @@ footer a img {
 		padding: 2.5em 0;
 	}
 	#dolphlogo {
-		width: 8em;
+		width: 7em;
 	}
 	header {
-		padding: 2em 0 0 0;
+		padding: 0;
+	}
+	nav img {
+		width: 1.5em;
+	}
+	header h2 {
+		font-size: 0.8em;
 	}
 }
 @media only screen and (max-width: 402px) {
-	header {
-		padding: 3em 0 0 0;
+	#dolphlogo {
+		width: 6em;
 	}
 }
