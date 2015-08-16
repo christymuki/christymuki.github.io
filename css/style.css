@@ -50,7 +50,7 @@ section {
 	display: block;
 }
 section#home {
-	background-color: #81B7C4;
+	background-image: url(/images/monorail.png);
 	padding: 4em 0;
 }
 section#home h1 {
