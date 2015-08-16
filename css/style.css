@@ -16,6 +16,7 @@ header {
 	font-color: white;
 	margin-left: 5%;
 	margin-right: 5%;
+	position: fixed;
 }
 nav {
 	float: right;
