@@ -24,7 +24,7 @@ nav img {
 	float: none;
 	width: 2em;
 }
-wrapper {
+main {
 	display: block;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -80,7 +80,10 @@ header a, img, h2{
 	display: inline-block;
 }
 #dolphlogo img {
-	width: 13em;
+	width: 100%;
+}
+nav a {
+	display:block;
 }
 footer h1, a{
 	display: inline-block;
@@ -100,6 +103,9 @@ footer a img {
 #worktype {
 	display: block;
 }
+#worktype img {
+	width: 50%;
+}
 .typecolumn {
 	width: 32.33%;
 	float: left;
@@ -116,11 +122,11 @@ footer a img {
 	float: left;
 	padding: 1em 0;
 }
-.screenshot img, p {
+.screenshot img {
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
 	display: block;
+	width: 25%;
+	float: left;
 }
 .clearfix:after {
 	content: ".";
@@ -141,7 +147,7 @@ footer a img {
 	header{
 		margin: 0;
 	}
-	wrapper {
+	main {
 		margin: 0;
 	}
 	footer {
@@ -164,12 +170,12 @@ footer a img {
 	nav {
 		padding: 3em 0;
 	}
-	#dolphlogo img {
+	#dolphlogo {
 		width: 9em;
 	}
 }
 @media only screen and (max-width: 650px) {
-	wrapper {
+	main {
 		padding: 0 0 3em 0;
 	}
 	.typecolumn {
@@ -192,7 +198,7 @@ footer a img {
 	nav {
 		padding: 2.5em 0;
 	}
-	#dolphlogo img {
+	#dolphlogo {
 		width: 8em;
 	}
 	header {
@@ -203,7 +209,7 @@ footer a img {
 	header {
 		padding: 3em 0 0 0;
 	}
-	header img, nav {
+	a img, nav {
 		display: block;
 		float: none;
 	}
