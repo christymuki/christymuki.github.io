@@ -9,7 +9,7 @@ body {
 }
 @font-face {
 	font-family: 'Silent Lips';
-	src: url(/fonts/Silent_Lips-Bold.ttf);
+	src: url(Silent_Lips-Bold.ttf) format('truetypefont');
 }
 header {
 	padding: 2em 0;
@@ -43,7 +43,7 @@ footer {
 	margin-right: 5%;
 }
 h1 {
-	font-family: 'Silent_Lips-Bold'
+	font-family: 'Silent Lips'
 	padding: 0 1em;
 }
 p, h2, h3, h4, h5, h6 {
