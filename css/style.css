@@ -69,6 +69,10 @@ section#home h1 {
 section#home p{
 	padding: 5em 0;
 }
+section#home span {
+	color: white;
+	text-align:;
+}
 section#contact p {
 	padding: 5em 0;
 }
