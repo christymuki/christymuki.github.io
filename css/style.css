@@ -106,9 +106,6 @@ footer a img {
 #worktype {
 	display: block;
 }
-#worktype img {
-	width: 50%;
-}
 .typecolumn {
 	width: 32.33%;
 	float: left;
@@ -119,6 +116,9 @@ footer a img {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+.typecolumn img {
+	width: 50%;
 }
 .screenshot {
 	width: 100%;
@@ -187,6 +187,9 @@ footer a img {
 @media only screen and (max-width: 560px) {
 	section#home h1 {
 		font-size: 5em;
+	}
+	.typecolumn p {
+		font-size: 0.8em;
 	}
 }
 @media only screen and (max-width: 470px) {
