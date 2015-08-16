@@ -55,7 +55,8 @@ section {
 	display: block;
 }
 section#home {
-	background-image: url(/images/monorail.png);
+	background-image: url(/images/kellycanoe.jpg);
+	background-size:137.94em;
 	padding: 4em 0;
 }
 section#home h1 {
