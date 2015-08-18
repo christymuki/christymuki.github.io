@@ -152,7 +152,7 @@ footer a img {
 }
 @media only screen and (max-width: 1022px) {
 	section#home h1 {
-		font-size: 5em;
+		font-size: 6em;
 	}
 	section#home p {
 		padding: 1em 0;
@@ -163,6 +163,12 @@ footer a img {
 	}
 }
 @media only screen and (max-width: 800px) {
+	section#work h1{
+		font-size: 1.3em;
+	}
+	section#contact h1{
+		font-size: 1.3em;
+	}
 	header{
 		margin: 0;
 	}
@@ -173,7 +179,7 @@ footer a img {
 		margin: 0;
 	}
 	nav {
-		padding: 4em 0;
+		padding: 3em 0;
 	}
 	#dolphlogo {
 		width: 9em;
@@ -190,7 +196,7 @@ footer a img {
 		font-size: 0.8em;
 	}
 	nav {
-		padding: 3em 0;
+		padding: 2em 0;
 	}
 	#dolphlogo {
 		width: 7em;
@@ -213,8 +219,20 @@ footer a img {
 	#dolphlogo {
 		width: 6em;
 	}
+	nav img {
+		width: 1.5em;
+	}
+	nav h2 {
+		font-size: 0.8em;
+	}
 }
 @media only screen and (max-width: 560px) {
+	section#work h1{
+		font-size: 1.1em;
+	}
+	section#contact h1{
+		font-size: 1.1em;
+	}
 	section#home h1 {
 		font-size: 4em;
 	}
@@ -229,8 +247,11 @@ footer a img {
 	section#home h1 {
 		font-size: 3em;
 	}
+	section#home {
+		padding: 2em 0;
+	}
 	nav {
-		padding: 2.5em 0;
+		padding: 1.5em 0;
 	}
 	#dolphlogo {
 		width: 5em;
@@ -238,12 +259,32 @@ footer a img {
 	nav img {
 		width: 1.5em;
 	}
-	header h2 {
+	nav h2 {
 		font-size: 0.8em;
 	}
 }
 @media only screen and (max-width: 402px) {
+	section#home h1 {
+		font-size: 2.5em;
+	}
+	section#home {
+		padding: 1em 0;
+	}
 	#dolphlogo {
 		width: 4em;
+	}
+	nav {
+		padding: 1em 0;
+	}
+	nav img {
+		width: 1em;
+	}
+	nav h2 {
+		font-size: 0.7em;
+	}
+}
+@media only screen and (max-width: 351px) {
+	section#home {
+		padding: 0.1em 0;
 	}
 }
