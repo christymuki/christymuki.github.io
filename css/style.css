@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Silent Lips';
-	src: url(Silent_Lips-Bold.ttf) format('truetypefont');
+	src: url(../Silent_Lips-Bold.ttf) format('truetypefont');
 }
 * { margin:0; padding:0; box-sizing: border-box;}
 body {
