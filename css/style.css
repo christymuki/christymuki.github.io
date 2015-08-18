@@ -225,6 +225,9 @@ footer a img {
 	nav h2 {
 		font-size: 0.8em;
 	}
+	footer a img {
+		height: 1em;
+	}
 }
 @media only screen and (max-width: 560px) {
 	section#work h1{
