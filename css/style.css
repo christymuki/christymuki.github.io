@@ -57,7 +57,7 @@ section#home {
 	background-image: url(/images/kellycanoecropped.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
-	padding: 10em 0;
+	padding: 8em 0;
 }
 section#home h1 {
 	font-size: 7em;
@@ -65,11 +65,11 @@ section#home h1 {
 	width: 100%;
 }
 section#home p{
-	padding: 5em 0;
+	padding: 2em 0;
 }
 section#home span {
 	color: white;
-	text-align:;
+	text-align: center;
 }
 section#contact p {
 	padding: 5em 0;
