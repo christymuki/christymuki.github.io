@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'Silent Lips';
+	src: url(Silent_Lips-Bold.ttf) format('truetypefont');
+}
 * { margin:0; padding:0; box-sizing: border-box;}
 body {
 	background-color: white;
@@ -7,10 +11,7 @@ body {
 	font-weight: 100;
 	font-color: black;
 }
-@font-face {
-	font-family: 'Silent Lips';
-	src: url(Silent_Lips-Bold.ttf) format('truetypefont');
-}
+
 header {
 	display: block;
 	font-color: white;
@@ -150,7 +151,7 @@ footer a img {
 #slideshow {
 	display: none;
 }
-@media only screen and (max-width: 1022px) {
+@media only screen and (min-width: 801px) and (max-width: 1022px) {
 	section#home h1 {
 		font-size: 6em;
 	}
@@ -162,7 +163,7 @@ footer a img {
 		padding: 5em 0;
 	}
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width:739px) and (max-width: 800px) {
 	section#work h1{
 		font-size: 1.3em;
 	}
