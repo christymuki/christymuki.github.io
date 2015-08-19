@@ -28,16 +28,15 @@ nav img {
 	width: 2em;
 	margin: auto;
 }
-nav img, h2 {
+nav img, p {
 	display: block;
 }
 main {
 	display: block;
-	margin-left: 5%;
-	margin-right: 5%;
+	max-width: 1200px;
 }
 footer {
-	padding: 1em 0;
+	padding: 2em 0;
 	display: block;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -56,7 +55,7 @@ section {
 }
 section#home {
 	background-image: url(/images/kellycanoecropped.jpg);
-	background-size: 100%;
+	background-size: 1200px;
 	background-repeat: no-repeat;
 	padding: 8em 0;
 }
@@ -67,10 +66,12 @@ section#home h1 {
 }
 section#home p{
 	padding: 2em 0;
+	font-size: 2em;
 }
 section#home span {
 	color: white;
 	text-align: center;
+	float: right;
 }
 section#contact p {
 	padding: 5em 0;
@@ -79,13 +80,13 @@ img h1 {
 	width:;
 	float: left;
 }
-header h2 {
+header p {
 	font-size: 1em;
 }
 header a {
 	padding: 0 1em;
 }
-header a, img, h2{
+header a, img, p{
 	display: inline-block;
 	color: black;
 }
@@ -99,13 +100,14 @@ header a, img, h2{
 nav a {
 	display:inline-block;
 }
-footer h1, a{
+footer p, a{
 	display: inline-block;
 	text-decoration: none;
 }
 footer p {
 	float: left;
 	padding: 0 1em;
+	text-transform: bold;
 }
 footer a {
 	float: right;
@@ -140,6 +142,7 @@ footer a img {
 	display: block;
 	width: 100%;
 	float: left;
+	padding: 1em;
 }
 .clearfix:after {
 	content: ".";
@@ -147,9 +150,6 @@ footer a img {
 	display:block;
 	height: 0;
 	clear: both;
-}
-#slideshow {
-	display: none;
 }
 @media only screen and (min-width: 801px) and (max-width: 1022px) {
 	section#home h1 {
@@ -189,7 +189,7 @@ footer a img {
 		padding: 6em 0;
 	}
 }
-@media only screen and (max-width: 738px) {
+@media only screen (min-width: 651px) and (max-width: 738px) {
 	section#home h1 {
 		font-size: 5em;
 	}
@@ -203,7 +203,7 @@ footer a img {
 		width: 7em;
 	}
 }
-@media only screen and (max-width: 650px) {
+@media only screen (min-width: 561px) and (max-width: 650px) {
 	main {
 		padding: 0 0 3em 0;
 	}
@@ -223,14 +223,14 @@ footer a img {
 	nav img {
 		width: 1.5em;
 	}
-	nav h2 {
+	nav p {
 		font-size: 0.8em;
 	}
 	footer a img {
 		height: 1em;
 	}
 }
-@media only screen and (max-width: 560px) {
+@media only screen (min-width: 471px) and (max-width: 560px) {
 	section#work h1{
 		font-size: 1.1em;
 	}
@@ -247,7 +247,7 @@ footer a img {
 		padding: 3em 0;
 	}
 }
-@media only screen and (max-width: 470px) {
+@media only screen (min-width: 403px) and (max-width: 470px) {
 	section#home h1 {
 		font-size: 3em;
 	}
@@ -263,11 +263,11 @@ footer a img {
 	nav img {
 		width: 1.5em;
 	}
-	nav h2 {
+	nav p {
 		font-size: 0.8em;
 	}
 }
-@media only screen and (max-width: 402px) {
+@media only screen (min-width: 352px) and (max-width: 402px) {
 	section#home h1 {
 		font-size: 2.5em;
 	}
@@ -283,11 +283,11 @@ footer a img {
 	nav img {
 		width: 1em;
 	}
-	nav h2 {
+	nav p {
 		font-size: 0.7em;
 	}
 }
-@media only screen and (max-width: 351px) {
+@media only screen (min-width: 0px) and (max-width: 351px) {
 	section#home {
 		padding: 0.1em 0;
 	}

@@ -6,32 +6,31 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
+	<header class="clearfix">
 		<div id="dolphlogo">
 			<img src="images/dolphlogo.png" alt="freedolph logo">
 		</div>
 		<nav>
 			<a href="#home">
 				<img src="icons/homeicon.png" alt="home">
-				<h2>Home</h2>
+				<p>Home</p>
 			</a>
 			<a href="#work">
 				<img src="icons/workicon.png" alt="work">
-				<h2>Work</h2>
+				<p>Work</p>
 			</a>
 			<a href="#contact">
 				<img src="icons/contacticon2.png" alt="contact me">
-				<h2>Contact</h2>
+				<p>Contact</p>
 			</a>
 		</nav>
 	</header>
+	<section id="home" class="clearfix">
+		<h1>FREEDOLPH</h1>
+		<p>"Some painters transform the sun into a yellow spot, others transform a yellow spot into the sun." - Pablo Picasso</p>
+		<span><p>photo credits <a href="https://www.instagram.com/kllyplmr">instagram @kllyplmr</a></p></span>
+	</section>
 	<main>
-		<section id="home" class="clearfix">
-			<h1>FREEDOLPH</h1>
-			<p>"Some painters transform the sun into a yellow spot, others transform a yellow spot into the sun." - Pablo Picasso</p>
-			<span><p>photo credits <a href="https://www.instagram.com/kllyplmr">instagram @kllyplmr</a></p></span>
-		</section>
-
 		<section id="work" class="clearfix">
 			<h1>Work</h1>
 			<div id="worktype">
@@ -64,10 +63,29 @@
 
 		<section id="contact" class="clearfix">
 			<h1>Contact Freedolph</h1>
-			<p>contact sheet here</p>
+			<div id="wufoo-z195vndz1for4iq">
+				Fill out my <a href="https://christymuki.wufoo.com/forms/z195vndz1for4iq">online form</a>.
+			</div>
+			<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/partners/">Wufoo integrations</a> and get your data to your favorite apps.</div>
+			<script type="text/javascript">var z195vndz1for4iq;(function(d, t) {
+				var s = d.createElement(t), options = {
+					'userName':'christymuki',
+					'formHash':'z195vndz1for4iq',
+					'autoResize':true,
+					'height':'460',
+					'async':true,
+					'host':'wufoo.com',
+					'header':'show',
+					'ssl':true};
+				s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+				s.onload = s.onreadystatechange = function() {
+				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+				try { z195vndz1for4iq = new WufooForm();z195vndz1for4iq.initialize(options);z195vndz1for4iq.display(); } catch (e) {}};
+				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+				})(document, 'script');</script>
 		</section>
 	</main>
-	<footer>
+	<footer class="clearfix">
 		<p>© 2015 freedolph</p>
 		<a href="#email">
 			<img src="icons/mailicon.png" alt="mail me!">
