@@ -34,6 +34,7 @@ nav img, p {
 main {
 	display: block;
 	max-width: 1200px;
+	margin: auto;
 }
 footer {
 	padding: 2em 0;
@@ -129,14 +130,14 @@ footer a img {
 .typecolumn {
 	width: 33.33%;
 	float: left;
-	padding: 1em;
+	padding: 4em;
 }
 .typecolumn img, p {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	
+
 }
 .typecolumn img {
 	width: 50%;
@@ -150,7 +151,7 @@ footer a img {
 	display: block;
 	width: 100%;
 	float: left;
-	padding: 1em;
+	padding: 2em;
 }
 .clearfix:after {
 	content: ".";
