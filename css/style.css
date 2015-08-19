@@ -168,7 +168,7 @@ div#wufoo-z195vndz1for4iq {
 		font-size: 0.9em;
 	}
 	section#home {
-		padding: 5em 1em 9em 1em;
+		padding: 9em 1em 12em 1em;
 	}
 	#dolphlogo {
 		width: 9em;
@@ -203,10 +203,10 @@ div#wufoo-z195vndz1for4iq {
 		width: 8em;
 	}
 	section#home {
-		padding: 4em 0 8em 0;
+		padding: 8em 0 11em 0;
 	}
 }
-@media only screen (min-width: 651px) and (max-width: 738px) {
+@media only screen and (min-width: 651px) and (max-width: 738px) {
 	section#home h1 {
 		font-size: 4em;
 	}
@@ -223,7 +223,7 @@ div#wufoo-z195vndz1for4iq {
 		margin: none;
 	}
 }
-@media only screen (min-width: 561px) and (max-width: 650px) {
+@media only screen and (min-width: 561px) and (max-width: 650px) {
 	main {
 		padding: 0 0 3em 0;
 	}
@@ -253,7 +253,7 @@ div#wufoo-z195vndz1for4iq {
 		height: 1em;
 	}
 }
-@media only screen (min-width: 471px) and (max-width: 560px) {
+@media only screen and (min-width: 471px) and (max-width: 560px) {
 	section#work h1{
 		font-size: 1.1em;
 	}
@@ -267,7 +267,7 @@ div#wufoo-z195vndz1for4iq {
 		padding: 2em 0 6em 0;
 	}
 }
-@media only screen (min-width: 403px) and (max-width: 470px) {
+@media only screen and (min-width: 403px) and (max-width: 470px) {
 	section#home h1 {
 		font-size: 3em;
 	}
@@ -287,7 +287,7 @@ div#wufoo-z195vndz1for4iq {
 		font-size: 0.8em;
 	}
 }
-@media only screen (min-width: 352px) and (max-width: 402px) {
+@media only screen and (min-width: 352px) and (max-width: 402px) {
 	section#home h1 {
 		font-size: 2.5em;
 	}
@@ -310,7 +310,7 @@ div#wufoo-z195vndz1for4iq {
 		font-size: 0.7em;
 	}
 }
-@media only screen (min-width: 0px) and (max-width: 351px) {
+@media only screen and (min-width: 0px) and (max-width: 351px) {
 	section#home {
 		padding: 1em 0 3em 0;
 	}
