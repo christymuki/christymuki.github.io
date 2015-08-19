@@ -21,7 +21,7 @@ header {
 nav {
 	float: right;
 	display: inline-block;
-	padding: 6em 0;
+	padding: 3em 0;
 }
 nav img {
 	float: none;
@@ -55,23 +55,30 @@ section {
 }
 section#home {
 	background-image: url(/images/kellycanoecropped.jpg);
-	background-size: 1200px;
+	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 8em 0;
+	background-position:center;
+	padding: 6em 2em 10em 2em;
 }
 section#home h1 {
-	font-size: 7em;
+	font-size: 6em;
 	text-align: center;
 	width: 100%;
+	padding-top: 0.5em;
+
 }
 section#home p{
 	padding: 2em 0;
-	font-size: 2em;
+	font-size: 1.2em;
 }
 section#home span {
 	color: white;
 	text-align: center;
 	float: right;
+	font-size: 0.7em;
+}
+section#home span a {
+	color: black;
 }
 section#contact p {
 	padding: 5em 0;
@@ -120,7 +127,7 @@ footer a img {
 	display: block;
 }
 .typecolumn {
-	width: 32.33%;
+	width: 33.33%;
 	float: left;
 	padding: 1em;
 }
@@ -129,6 +136,7 @@ footer a img {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	
 }
 .typecolumn img {
 	width: 50%;
@@ -162,8 +170,17 @@ footer a img {
 	section#home {
 		padding: 5em 0;
 	}
+	#dolphlogo {
+		width: 9em;
+	}
 }
 @media only screen and (min-width:739px) and (max-width: 800px) {
+	section#home h1 {
+		font-size: 5em;
+	}
+	section#home p{
+		font-size: 1em;
+	}
 	section#work h1{
 		font-size: 1.3em;
 	}
@@ -180,10 +197,10 @@ footer a img {
 		margin: 0;
 	}
 	nav {
-		padding: 3em 0;
+		padding: 2em 0;
 	}
 	#dolphlogo {
-		width: 9em;
+		width: 8em;
 	}
 	#home {
 		padding: 6em 0;
@@ -191,16 +208,19 @@ footer a img {
 }
 @media only screen (min-width: 651px) and (max-width: 738px) {
 	section#home h1 {
-		font-size: 5em;
+		font-size: 4em;
 	}
 	section#home p {
 		font-size: 0.8em;
 	}
 	nav {
-		padding: 2em 0;
+		padding: 1.5em 0;
 	}
 	#dolphlogo {
 		width: 7em;
+	}
+	header {
+		margin: none;
 	}
 }
 @media only screen (min-width: 561px) and (max-width: 650px) {
@@ -212,10 +232,13 @@ footer a img {
 		padding: 1em 0;
 	}
 	section#home h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	section#home {
 		padding: 5em 0;
+	}
+	section#home p{
+		font-size: 0.9em;
 	}
 	#dolphlogo {
 		width: 6em;
@@ -236,9 +259,6 @@ footer a img {
 	}
 	section#contact h1{
 		font-size: 1.1em;
-	}
-	section#home h1 {
-		font-size: 4em;
 	}
 	.typecolumn p {
 		font-size: 0.8em;
@@ -274,6 +294,9 @@ footer a img {
 	section#home {
 		padding: 1em 0;
 	}
+	section#home p {
+		font-size: 0.8em;
+	}
 	#dolphlogo {
 		width: 4em;
 	}
@@ -290,5 +313,11 @@ footer a img {
 @media only screen (min-width: 0px) and (max-width: 351px) {
 	section#home {
 		padding: 0.1em 0;
+	}
+	section#home h1{
+		font-size: 2em;
+	}
+	section#home p{
+		font-size: 0.7em;
 	}
 }
