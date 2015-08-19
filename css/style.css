@@ -15,8 +15,6 @@ body {
 header {
 	display: block;
 	font-color: white;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 nav {
 	float: right;
@@ -39,8 +37,6 @@ main {
 footer {
 	padding: 2em 0;
 	display: block;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 h1 {
 	font-family: 'Silent Lips';
@@ -152,6 +148,9 @@ footer a img {
 	width: 100%;
 	float: left;
 	padding: 2em;
+}
+div#wufoo-z195vndz1for4iq {
+	padding: 1em;
 }
 .clearfix:after {
 	content: ".";
